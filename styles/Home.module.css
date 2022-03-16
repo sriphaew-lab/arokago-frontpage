@@ -4,11 +4,11 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+  padding: 2rem 0;
+  flex: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: top;
   align-items: center;
 }
 
@@ -113,4 +113,21 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.overflow {
+  position: relative;
+  color: #50c0b9;
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.copyrightFooter {
+  background-color: #212121;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.2rem;
 }
