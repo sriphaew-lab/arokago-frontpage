@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import { Typography } from '@material-ui/core';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -15,7 +16,11 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <img width="100%" src="/images/FrontPage.gif" />
+        <Image
+          width="100%"
+          alt="arokago-frontpage"
+          src="/images/FrontPage.gif"
+        />
         <div className={styles.overflow}>WE WILL COMING SOON</div>
       </main>
 
