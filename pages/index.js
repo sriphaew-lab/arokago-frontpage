@@ -1,7 +1,7 @@
 import Head from 'next/head';
+import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import { Typography } from '@material-ui/core';
-import Image from 'next/image';
 
 export default function Home() {
   return (
