@@ -24,7 +24,7 @@ export default function Home() {
           />
         </NextLink>
 
-        <div className={styles.overflow}>WE WILL COMING SOON</div>
+        <div className={styles.overflow}>WILL BE COMING SOON</div>
       </main>
 
       <footer className={styles.copyrightFooter}>
