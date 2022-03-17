@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Image from 'next/image';
+import NextLink from 'next/link';
 import styles from '../styles/Home.module.css';
 import { Typography } from '@material-ui/core';
 
@@ -16,11 +16,14 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Image
-          width="100%"
-          alt="arokago-frontpage"
-          src="/images/FrontPage.gif"
-        />
+        <NextLink href="https://lin.ee/diwXfHR" passHref>
+          <img
+            width="100%"
+            alt="arokago-frontpage"
+            src="/images/FrontPage.gif"
+          />
+        </NextLink>
+
         <div className={styles.overflow}>WE WILL COMING SOON</div>
       </main>
 
